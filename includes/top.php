@@ -40,7 +40,7 @@
                 <li><a href="#" id="moviesButton">Movies</a></li>
                 <li><a href="#" id="talentsButton">Talents</a></li>
                 <li><a href="#" id="eventsButton">Events</a></li>
-                <li><a href="#" id="exchangeButton">Kuhl Exchange</a></li>
+<!--                <li><a href="#" id="exchangeButton">Kuhl Exchange</a></li>-->
                 <li><a href="#" id="contactButton">Contact</a></li>
             </ul>
         </div>
