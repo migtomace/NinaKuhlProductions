@@ -58,7 +58,7 @@ $(document).ready(function () {
     //checks screen size every time the navbar is click
     //and collapses the navbar on small screens when an item is clicked
     $('.nav a').on('click', function () {
-        if (screen.width <= 768){
+        if ($(window).width <= 768){
             $('.nav a').on('click', function(){
                 $('.navbar-toggle').click(); //bootstrap 3.x by Richard
             });
@@ -67,11 +67,21 @@ $(document).ready(function () {
 
     //collapses the navbar on small screens when an item is clicked
     //this code is necessary so that the navbar will collapse on the first click
-    if (screen.width <= 768){
+    if (w <= 768){
         $('.nav a').on('click', function(){
             $('.navbar-toggle').click(); //bootstrap 3.x by Richard
         });
     }
+
+    //this collapses the navbar on click when the window is re-sized below 768px
+    $(window).resize(function(){
+        var w = $(window).width();
+        if (w <= 768){
+            $('.nav a').on('click', function(){
+                $('.navbar-toggle').click(); //bootstrap 3.x by Richard
+            });
+        }
+    });
 
 
 });
