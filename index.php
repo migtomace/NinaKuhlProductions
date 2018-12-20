@@ -50,28 +50,22 @@ if ($response != null && $response->success)
     }//end failure feedback
 
     ?>
-<?php include "includes/top.php"?>
+    <?php include "includes/top.php"?>
 
-<?php include "includes/home.php" ?>
-
-
-<?php include "includes/about.php" ?>
-
-<?php include "includes/movies.php" ?>
+    <?php include "includes/home.php" ?>
 
 
-<?php include "includes/talents.php" ?>
+    <?php include "includes/about.php" ?>
 
+    <?php include "includes/movies.php" ?>
 
-<main id="exchange">
+    <?php include "includes/talents.php" ?>
 
+    <?php include "includes/exchange.php" ?>
 
+    <?php include "includes/events.php" ?>
 
-</main>
-
-<?php include "includes/events.php" ?>
-
-<?php include "includes/contact.php" ?>
+    <?php include "includes/contact.php" ?>
 
     <?php
 }
