@@ -14,10 +14,6 @@ nav, footer {
     overflow: hidden;
 }
 
-footer .container {
-    width: 90% !important;
-}
-
 /*social link styles*/
 .social {
     font-size: 2em;
