@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+    //On page load this hides all main sections except for the home
     var prev = "#home";
     $(prev).show();
     $('#about').hide();
@@ -8,6 +10,7 @@ $(document).ready(function () {
     $('#exchange').hide();
     $('#contact').hide();
 
+    //tells the page what sections to show when nav items are clicked
     $('#homeButton').click(function () {
         $(prev).hide().fadeOut('slow');
         $('#home').show().fadeIn('slow');
@@ -49,5 +52,11 @@ $(document).ready(function () {
         $('#contact').show().fadeIn('slow');
         document.title = "Contact";
         prev = "#contact";
+    });
+
+
+    //collapses the navbar on small screens when an item is clicked
+    $('.nav a').on('click', function(){
+        $('.navbar-toggle').click(); //bootstrap 3.x by Richard
     });
 });
