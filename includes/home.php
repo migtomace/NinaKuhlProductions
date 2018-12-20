@@ -9,15 +9,55 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="images/adult-art-artist-255437.jpg" alt="Los Angeles">
+                <img src="images/home/construction1.jpg" alt="Construction">
             </div>
 
             <div class="item">
-                <img src="images/art-blur-casual-428320.jpg" alt="Chicago">
+                <img src="images/home/construction2.jpg" alt="Construction">
             </div>
 
             <div class="item">
-                <img src="images/abstract-amplifier-business-327556.jpg" alt="New York">
+                <img src="images/home/construction3.jpg" alt="Construction">
+            </div>
+
+            <div class="item">
+                <img src="images/home/construction4.jpg" alt="Construction">
+            </div>
+
+            <div class="item">
+                <img src="images/home/construction5.jpg" alt="Construction">
+            </div>
+
+            <div class="item">
+                <img src="images/home/construction6.jpg" alt="Construction">
+            </div>
+
+            <div class="item">
+                <img src="images/home/construction7.jpg" alt="Construction">
+            </div>
+
+            <div class="item">
+                <img src="images/home/construction8.jpg" alt="Construction">
+            </div>
+
+            <div class="item">
+                <img src="images/home/construction9.jpg" alt="Construction">
+            </div>
+
+            <div class="item">
+                <img src="images/home/construction10.jpg" alt="Construction">
+            </div>
+
+            <div class="item">
+                <img src="images/home/construction11.jpg" alt="Construction">
+            </div>
+
+            <div class="item">
+                <img src="images/home/construction12.jpg" alt="Construction">
+            </div>
+
+            <div class="item">
+                <img src="images/home/construction13.jpg" alt="Construction">
             </div>
         </div>
 

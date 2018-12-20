@@ -53,7 +53,7 @@
                 </div>
                 <div class="row ml-2">
                     <div class="col-md-12">
-                        <h2>New & Events</h2>
+                        <h2>News & Events</h2>
                         <p>Inspirit: May 25-23<p>
                         <p>If ​You Only Knew: June 1-3<p>
                         <p>Private Reception: Jun 9<p>
