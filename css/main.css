@@ -42,6 +42,10 @@ nav, footer {
     background-color: transparent !important;
 }
 
+img {
+    width: 100%;
+}
+
 .fill {
     min-height: 100%;
     height: 100%;
@@ -60,7 +64,6 @@ footer {
 }
 .img-responsive {
     border-radius: 5px;
-    width: 200px;
     max-height: 200px;
     min-height: 200px;
 }
@@ -71,4 +74,58 @@ footer {
 
 #contact iframe {
     width: 100%;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    main {
+        text-align: center;
+    }
+
+    .col-md-3 {
+        width: 50%;
+        margin: auto;
+    }
+
+
+    .img-responsive {
+        border-radius: 5px;
+        max-width: available;
+    }
+
+}
+
+/*media queries for screens smaller that 450px wide*/
+@media screen and (max-width: 450px) {
+    small {
+        display: none;
+    }
+
+    /*social link styles*/
+    .social {
+        font-size: 1.75em;
+    }
+    .btn-floating {
+        margin: 0 0.5em;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    .col-md-3 {
+        width: 100%;
+    }
+
+    .img-responsive {
+        border-radius: 5px;
+        max-width: available;
+    }
+
 }

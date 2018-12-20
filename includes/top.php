@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Sounds of Nina Kuhl Productions | <small class="text-secondary">Music is Life</small></a>
+            <a class="navbar-brand" href="#">Sounds of Nina Kuhl Productions <small class="text-secondary">| Music is Life</small></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">

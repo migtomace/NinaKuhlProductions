@@ -7,6 +7,8 @@
                 <h1>Movies</h1>
                 <p>I have had the pleasure and honor of being a part of:</p>
             </div>
+        </div>
+        <div class="row">
             <div class="col-md-3">
                 <a href="https://www.facebook.com/MYPANDAtheMOVIE/"><img src="images/movies/panda.jpg" alt="My Panda" class="img-responsive" >
                     <p>My Panda</p></a>

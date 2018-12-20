@@ -34,7 +34,7 @@
                 <a href="http://www.artisanfinishes.com/wordpress/"><img src="images/KuhlExchange/artisan.jpg" alt="Artisan Finishes" class="img-responsive"></a>
             </div>
             <div class="img-thumbnail">
-                <a href="https://www.facebook.com/soundsofninakuhl/"><img src="images/KuhlExchange/sounds.jpg" alt="The sounds of Nina Kuhl Productions"></a>
+                <a href="https://www.facebook.com/soundsofninakuhl/"><img src="images/KuhlExchange/sounds.jpg" alt="The sounds of Nina Kuhl Productions" class="img-responsive"></a>
             </div>
     </div>
 
