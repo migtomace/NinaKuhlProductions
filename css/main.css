@@ -65,7 +65,6 @@ footer {
 .img-responsive {
     border-radius: 5px;
     max-height: 200px;
-    min-height: 200px;
 }
 
 #talents img {
@@ -80,8 +79,16 @@ footer {
     padding: 0 !important;
 }
 
+@media screen and (min-width: 768px) {
+    .collapsing {
+        -webkit-transition: none;
+        transition: none;
+        display: none;
+    }
+}
 
 @media screen and (max-width: 991px) {
+
 
 
     main {
