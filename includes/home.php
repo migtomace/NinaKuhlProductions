@@ -1,4 +1,4 @@
-<main id="home">
+<main id="home" style="min-height:70vh">
 
 
     <h1 class="text-center jumbotron">Coming soon!</h1>

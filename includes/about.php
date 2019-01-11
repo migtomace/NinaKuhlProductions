@@ -1,7 +1,7 @@
-<main id="about">
+<main id="about" style="min-height:70vh">
 
 
-    <div class="container">
+    <div class="container" >
         <img src="images/abstract-amplifier-business-327556.jpg" class="col-md-12 img"/>
         <div class="row">
             <div class="col-md-8">

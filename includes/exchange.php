@@ -1,4 +1,4 @@
-<main id="exchange">
+<main id="exchange" style="min-height:70vh">
 
     <div class="container">
         <div class="row text-center">

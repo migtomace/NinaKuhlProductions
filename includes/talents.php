@@ -1,4 +1,4 @@
-<main id="talents">
+<main id="talents" style="min-height:70vh">
 
     <div class="container">
         <div class="row">

@@ -1,4 +1,4 @@
-<main id="events">
+<main id="events" style="min-height:70vh">
 
     <div class="container">
         <div class="row">
