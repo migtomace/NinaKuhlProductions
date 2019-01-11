@@ -1,4 +1,4 @@
-<main id="contact">
+<main id="contact" style="min-height:70vh">
 
     <div class="container">
         <div class="row">

@@ -1,4 +1,4 @@
-<main id="movies">
+<main id="movies" style="min-height:70vh">
 
     <div class="container fill">
 
