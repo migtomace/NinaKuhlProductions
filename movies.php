@@ -1,4 +1,5 @@
-<main id="movies" style="min-height:70vh">
+<?php include "includes/top.php" ?>
+<main id="movies">
 
     <div class="container fill">
 
@@ -28,3 +29,4 @@
     </div>
 
 </main>
+<?php include "includes/bottom.php" ?>

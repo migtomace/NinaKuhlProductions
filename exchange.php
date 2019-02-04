@@ -1,4 +1,6 @@
-<main id="exchange" style="min-height:70vh">
+<?php include "includes/top.php" ?>
+
+<main id="exchange">
 
     <div class="container">
         <div class="row text-center">
@@ -43,3 +45,5 @@
         <!--            end Kuhl Exchange-->
 
 </main>
+
+<?php include "includes/bottom.php" ?>

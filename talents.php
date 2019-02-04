@@ -1,4 +1,7 @@
-<main id="talents" style="min-height:70vh">
+<?php include "includes/top.php"?>
+
+
+<main id="talents">
 
     <div class="container">
         <div class="row">
@@ -70,3 +73,4 @@
 
 
 </main>
+<?php include "includes/bottom.php"?>

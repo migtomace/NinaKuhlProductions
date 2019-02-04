@@ -1,8 +1,4 @@
-<!--<footer class="footer-copyright text-center py-3">-->
-<!--    <p><small>&copy; 2018 <a href="http://www.miguelacevedo.com">Development &amp; Design by Miguel Acevedo</a> - All Rights Reserved</small></p>-->
-<!--</footer>-->
 
-<!-- Footer -->
 <footer class="page-footer navbar-inverse">
 
     <!-- Footer Elements -->
@@ -22,12 +18,7 @@
                 </li>
                 <li class="list-inline-item">
                     <a class="btn-floating">
-                        <i class="fab fa-google-plus"> </i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="btn-floating">
-                        <i class="fab fa-linkedin"> </i>
+                        <i class="fab fa-instagram"> </i>
                     </a>
                 </li>
             </ul>
@@ -49,7 +40,8 @@
 
 <!-- Footer -->
 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-<script src="js/main.js"></script>
+<!--<script src="js/main.js"></script>-->
 </body>
 </html>

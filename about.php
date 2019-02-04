@@ -1,7 +1,9 @@
-<main id="about" style="min-height:70vh">
+<?php include "includes/top.php"?>
+
+<main id="about">
 
 
-    <div class="container" >
+    <div class="container">
         <img src="images/abstract-amplifier-business-327556.jpg" class="col-md-12 img"/>
         <div class="row">
             <div class="col-md-8">
@@ -32,3 +34,4 @@
     </div>
 
 </main>
+<?php include "includes/bottom.php"?>

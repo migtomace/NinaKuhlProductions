@@ -1,10 +1,13 @@
-<main id="contact" style="min-height:70vh">
+<?php include "includes/top.php"?>
+
+
+<main id="contact">
 
     <div class="container">
         <div class="row">
             <div class="col-md-8">
                 <h2>Contact Nina Kuhl</h2>
-                <form class="form-horizontal" action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
+                <form class="form-horizontal" action="includes/formhandler.php" method="post">
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="name">Full Name:</label>
                         <div class="col-sm-10">
@@ -23,8 +26,25 @@
                             <input type="textbox" class="form-control" id="message" placeholder="Enter message" name="message">
                         </div>
                     </div>
-                    <div><?=$feedback?></div>
-                    <div align="center" class="g-recaptcha" data-sitekey="6Lca7UAUAAAAAHUG1AIm7SGUwAuowu97BDaAiKS4"></div>
+                    <?php
+                    if ($_GET['feedback'] == "success"){
+                        echo "<div class=\"alert alert-success alert-dismissible\">
+    <a href=\"#\" class=\"close\" data-dismiss=\"alert\" aria-label=\"close\">&times;</a>
+    <strong>Success!</strong> Your email has been sent. Someone should be in contact with you soon.
+  </div>";
+                    } elseif($_GET['feedback'] == "fail"){
+                        echo "<div class=\"alert alert-danger alert-dismissible\">
+    <a href=\"#\" class=\"close\" data-dismiss=\"alert\" aria-label=\"close\">&times;</a>
+    <strong>Message not sent!</strong> Sorry something must have gone wrong.
+  </div>";
+                    } elseif($_GET['feedback'] == "empty") {
+                        echo "<div class=\"alert alert-danger alert-dismissible\">
+    <a href=\"#\" class=\"close\" data-dismiss=\"alert\" aria-label=\"close\">&times;</a>
+    <strong>Empty Field!</strong> Please complete all fields.
+  </div>";
+                    }
+                    ?>
+                    <div align="center" class="g-recaptcha" data-sitekey="<?=$siteKey?>"></div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
                             <button type="submit" class="btn btn-default">Submit</button>
@@ -71,3 +91,4 @@
 
 
 </main>
+<?php include "includes/bottom.php"?>
